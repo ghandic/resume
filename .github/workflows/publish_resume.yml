@@ -25,7 +25,6 @@ jobs:
 
       - name: Build the resume - html
         run: |
-          npm cache clean --force
           ./node_modules/.bin/resumed export --theme stackoverflow --format html public/index.html
 
       - name: Deploy the resume - html
