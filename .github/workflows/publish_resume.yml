@@ -15,7 +15,8 @@ jobs:
 
       - name: Install the dependencies
         run: |
-          npm install -g resumed-cli
+          apt-get update && apt-get install -y git
+          npm install resumed-cli
           git clone https://github.com/ghandic/jsonresume-theme-stackoverflow.git
           cd jsonresume-theme-stackoverflow
           npm install .
@@ -23,7 +24,7 @@ jobs:
           mkdir public
 
       - name: Build the resume - html
-        run: resumed export --theme stackoverflow --format html public/index.html
+        run: ./node_modules/.bin/resumed export --theme stackoverflow --format html public/index.html
 
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
@@ -33,7 +34,7 @@ jobs:
 
       - name: Build the resume - pdf
         run: |
-          resumed export --theme stackoverflow --format pdf Andrew_Challis_Resume.pdf
+          ./node_modules/.bin/resumed export --theme stackoverflow --format pdf Andrew_Challis_Resume.pdf
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Andrew_Challis_Resume.pdf
