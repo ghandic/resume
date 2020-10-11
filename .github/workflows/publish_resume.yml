@@ -26,7 +26,7 @@ jobs:
       - name: Build the resume - html
         run: |
           echo "$(tty)"
-          ./node_modules/.bin/resumed export --theme stackoverflow --format html public/index.html
+          script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format html public/index.html" /dev/null
 
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
