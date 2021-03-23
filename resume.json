@@ -85,6 +85,17 @@
     {
       "company": "Capgemini Invent",
       "name": "Capgemini Invent",
+      "position": "Senior Manager",
+      "location": "Melbourne, AU",
+      "url": "https://www.capgemini.com/",
+      "startDate": "2021-01-01",
+      "highlights": [
+      ],
+      "summary": "",
+    },
+    {
+      "company": "Capgemini Invent",
+      "name": "Capgemini Invent",
       "position": "Manager",
       "location": "Melbourne, AU",
       "url": "https://www.capgemini.com/",
