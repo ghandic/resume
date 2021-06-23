@@ -90,8 +90,11 @@
       "url": "https://www.capgemini.com/",
       "startDate": "2021-01-01",
       "highlights": [
+        "Solution Lead for a $5 million-dollar account, where we scaled up the project team from 7 to 32 members within 12 months",
+        "Lead the Python community (over 200 people) for Capgemini in APAC and designed courses and structure to enable large scale training and certification - <a href='https://capgeminiinventide.github.io/PyCap/'>PyCap</a>",
+        "Architected SOTA (State of the Art) OCR, document classification, quality and extraction microservices which resulted in an estimated 100 FTE reduction ~ $5m YoY, greater clarity for the citizen and the project was awarded the ISG Paragon APAC award."
       ],
-      "summary": ""
+      "summary": "Capgemini Invent combines strategy, technology, data science and creative design to solve the most complex business and technology challenges."
     },
     {
       "company": "Capgemini Invent",
@@ -103,14 +106,12 @@
       "endDate": "2021-01-01",
       "highlights": [
         "Designed, built and deployed multiple open source deep learning systems into production with 99.9% availability",
-        "Solution Lead for a $4.5 million-dollar account, where we scaled up the project team from 7 to 32 members within 12 months",
         "Spearheaded the <a href='https://github.com/CapgeminiInventIDE'>CapgeminiInventIDE</a> open source project on GitHub, which has boosted our external visibility in the space massively, allowing applicants to see the level we are preforming at and the ability to contribute alongside us",
         "Designed and ran an 8-week beginner/intermediate Python course for the whole of Capgemini Australia. The course curriculum was built and designed by myself and incorporated any additional topics that participants wanted to cover.",
-        "Lead the Python community of practice inside of Capgemini where I actively mentored individuals",
         "Primary interviewer for building high preferment teams, graded over 40 take home assessments, and both face-to-face and remote technical interviews",
         "Produced and maintained 5 IP rich deep learning microservices with a demo front end written in React to showcase to potential clients, leading to ~ $1 million dollars in project leads"
       ],
-      "summary": "Capgemini Invent combines strategy, technology, data science and creative design to solve the most complex business and technology challenges.",
+      "summary": "",
       "pinned": true
     },
     {
