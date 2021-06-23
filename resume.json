@@ -94,7 +94,8 @@
         "Lead the Python community (over 200 people) for Capgemini in APAC and designed courses and structure to enable large scale training and certification - <a href='https://capgeminiinventide.github.io/PyCap/'>PyCap</a>",
         "Architected SOTA (State of the Art) OCR, document classification, quality and extraction microservices which resulted in an estimated 100 FTE reduction ~ $5m YoY, greater clarity for the citizen and the project was awarded the ISG Paragon APAC award."
       ],
-      "summary": "Capgemini Invent combines strategy, technology, data science and creative design to solve the most complex business and technology challenges."
+      "summary": "Capgemini Invent combines strategy, technology, data science and creative design to solve the most complex business and technology challenges.",
+      "pinned": true
     },
     {
       "company": "Capgemini Invent",
