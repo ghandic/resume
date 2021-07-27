@@ -134,7 +134,7 @@
             "entity": "Services Australia",
             "description": "In this part time project (40% capacity role) we designed and built a full stack (FaRM) application to monitor and democratize the data replication jobs across SvA",
             "startDate": "2020-07-21",
-            "location": "Melbourne, AU",
+            "location": "Adelaide, AU",
             "keywords": [
                 "Data Engineering",
                 "Full Stack",
@@ -185,7 +185,7 @@
             "description": "In this short term, part time project I performed the role of technical lead where I was responsible for the delivery of the solution which was to build a pipeline that would distribute life events to government agencies such as the ATO, Centerlink and Medicare",
             "startDate": "2020-03-01",
             "endDate": "2020-05-01",
-            "location": "Melbourne, AU",
+            "location": "Adelaide, AU",
             "keywords": ["AWS", "Python", "Docker", "Kubernetes", "TDD", "Zeebe", "Kafka", "Nifi", "JIRA"],
             "highlights": [
                 "Developed and deployed an event driven solution to production with the source code developed externally to SvA, showcasing the new preferred delivery model by separating the need for data from the solution",
@@ -199,7 +199,7 @@
             "entity": "Services Australia",
             "description": "In this project I performed a highly technical role with an emphasis on leadership, which has been paramount to its technical excellence and rigor, I pushed new boundaries within Services Australia and set the bar high for quality output. We were challenged to meet strict SLA’s for which I architected the end to end solution with sign off from the client.",
             "startDate": "2019-07-01",
-            "location": "Melbourne, AU",
+            "location": "Adelaide, AU",
             "keywords": [
                 "AWS",
                 "Python",
