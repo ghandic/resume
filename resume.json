@@ -154,7 +154,7 @@
             "keywords": ["AWS", "Python", "Docker", "Kubernetes", "TDD", "Zeebe", "Kafka", "Nifi", "JIRA"],
             "highlights": [
                 "Developed and deployed an event driven solution to production with the source code developed externally to SvA, showcasing the new preferred delivery model by separating the need for data from the solution",
-                "Designed an open-source JSON schema data faker that enabled the delivery of this project to simulate the data that would be present in production. <a href='https://github.com/ghandic/jsf'>jsf</a>"
+                "Designed an open-source JSON schema data faker that enabled the delivery of this project to simulate the data that would be present in production. The open source project is available here - <a href='https://github.com/ghandic/jsf'>jsf</a>"
             ],
             "pinned": true
         },
