@@ -130,6 +130,21 @@
     ],
     "projects": [
         {
+            "name": "Marketing Data Strategy",
+            "entity": "FoxTel",
+            "description": "In this project we proposed a horizon based roadmap and technical architecture to enable FoxTel to leverage data across its multiple brands and distribution channels",
+            "startDate": "2020-05-01",
+            "endDate": "2020-06-01",
+            "location": "Melbourne, AU",
+            "keywords": ["Data Strategy", "Marketing", "Advertising", "Architecture", "Proposal", "Roadmap"],
+            "highlights": [
+                "Researched and architected a platform capable of handling customer, advertising and streaming data across multiple channels (digital and linear)",
+                "Collaboratively crafted a high level technical implementation roadmap with top down approximations for both team size and skill estimation and overall costings both CapEx and OpEx",
+                "Presented and reviewed the strategy with senior stakeholders from FoxTel, incorporating feedback into both the roadmap and architecture"
+            ],
+            "pinned": true
+        },
+        {
             "name": "LENS: Life Event Notification System - Birth of A Child",
             "entity": "Services Australia",
             "description": "In this short term, part time project I performed the role of technical lead where I was responsible for the delivery of the solution which was to build a pipeline that would distribute life events to government agencies such as the ATO, Centerlink and Medicare",
@@ -143,6 +158,7 @@
             ],
             "pinned": true
         },
+
         {
             "name": "Cognitive Document Handling",
             "entity": "Services Australia",
