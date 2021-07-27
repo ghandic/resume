@@ -333,7 +333,7 @@
                 "Developed algorithms for detecting leaks in pipes using multiple data sources: pressure, flow, pipe attributes, environment and smart meters.",
                 "Mentoring junior staff and delivering `lunch and learn' talks on hot topics."
             ],
-            "pinned": true
+            "pinned": false
         },
         {
             "name": "Design of Data Science Competition",
@@ -347,7 +347,7 @@
                 "Created tutorials for ways in which to achieve an out-of-the-box baseline result using TensorFlow.",
                 "Curated images and videos for the competition from both paid-for and CC0 sources."
             ],
-            "pinned": true
+            "pinned": false
         },
         {
             "name": "Predicting Reservoir Demand",
@@ -357,7 +357,7 @@
             "entity": "Thames Water",
             "location": "London, UK",
             "keywords": ["R", "BitBucket", "JIRA"],
-            "pinned": true
+            "pinned": false
         },
         {
             "name": "Data Science Platform",
