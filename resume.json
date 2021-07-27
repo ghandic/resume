@@ -67,7 +67,7 @@
             "startDate": "2021-01-01",
             "highlights": [
                 "Solution Lead for a $5 million-dollar account, where we scaled up the project team from 7 to 35 members within 12 months",
-                "Built and presented winning proposals for data science projects and overall data strategy to both new and existing clients",
+                "Built and presented winning proposals for data science projects and overall data strategy to both new and existing clients - exceeding my annual sales target within the first 3 months",
                 "Lead the Python community (over 200 people) for Capgemini in APAC and designed courses and structure to enable large scale training and certification - <a href='https://capgeminiinventide.github.io/PyCap/'>PyCap</a>",
                 "Architected SOTA (State of the Art) OCR, document classification, quality and extraction microservices which resulted in an estimated 100 FTE reduction ~ $5m YoY, greater clarity for the citizen and the project was awarded the ISG Paragon APAC award.",
                 "Worked across multiple projects simultaneously with different roles, such as; delivery lead, solution lead and technical advisor"
@@ -129,6 +129,41 @@
         }
     ],
     "projects": [
+        {
+            "name": "Data Backbone",
+            "entity": "Services Australia",
+            "description": "In this part time project (40% capacity role) we designed and built a full stack (FaRM) application to monitor and democratize the data replication jobs across SvA",
+            "startDate": "2020-07-21",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "Data Engineering",
+                "Full Stack",
+                "FastAPI",
+                "React",
+                "MongoDB",
+                "Qlik Attunity",
+                "JIRA"
+            ],
+            "highlights": [
+                "Supported the team as a technical advisor and collaboratively sculpted the solution design document",
+                "Utilized previous open-source work and development accelerators to build application scaffolding to ensure that team members could hit the ground running and not be blocked for their build tasks"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Control Testing Automation",
+            "entity": "ANZ",
+            "description": "In this part time project (25% capacity role) we designed and built integrations from ServiceNow to Qlik Sense for the purpose of automating processes and exposing where SLA's were not being adhered to across the bank",
+            "startDate": "2020-06-01",
+            "location": "Melbourne, AU",
+            "keywords": ["Data Engineering", "Project Management", "Proposal", "Agile", "JIRA"],
+            "highlights": [
+                "Worked with internal stakeholders, both technical and functional to ensure solution met all requirements for data movement throughout multiple environments",
+                "Advised the team on the technical direction to move around blockers in innovative ways making use of fake data and reducing coupling points",
+                "Proactively groomed and managed the backlog of work to ensure sprint planning sessions were short and sharp to reduce meeting effort required by team so they could concentrate on the problems at hand"
+            ],
+            "pinned": true
+        },
         {
             "name": "Marketing Data Strategy",
             "entity": "FoxTel",
