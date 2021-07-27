@@ -367,7 +367,7 @@
             "entity": "Department of Work and Pensions",
             "location": "London, UK",
             "keywords": ["Docker", "GitHub", "Kubernetes", "JIRA"],
-            "pinned": true
+            "pinned": false
         }
     ],
     "education": [
