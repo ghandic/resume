@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Andy Challis",
-        "label": "Data Scientist",
+        "label": "Principal Data Scientist",
         "image": "https://warehouse-camo.ingress.cmh1.psfhosted.org/35b73eaa1ba83efc77487c138013ea19597061c7/68747470733a2f2f7365637572652e67726176617461722e636f6d2f6176617461722f35383131353438313965306336353462646562396235633433376233323661373f73697a653d323235",
         "email": "andrewchallis@hotmail.co.uk",
         "phone": "61482043277",
@@ -59,12 +59,24 @@
     ],
     "work": [
         {
+            "company": "Slalom Build",
+            "name": "Slalom Build",
+            "position": "Principal Engineer",
+            "location": "Melbourne, AU",
+            "url": "https://www.slalombuild.com",
+            "startDate": "2021-10-25",
+            "highlights": [],
+            "summary": "Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next",
+            "pinned": true
+        },
+        {
             "company": "Capgemini Invent",
             "name": "Capgemini Invent",
             "position": "Senior Manager",
             "location": "Melbourne, AU",
             "url": "https://www.capgemini.com/",
             "startDate": "2021-01-01",
+            "endDate": "2021-10-22",
             "highlights": [
                 "Solution Lead for a $5 million-dollar account, where we scaled up the project team from 7 to 35 members within 12 months",
                 "Built and presented winning proposals for data science projects and overall data strategy to both new and existing clients - exceeding my annual sales target within the first 3 months",
