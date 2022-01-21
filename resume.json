@@ -65,7 +65,12 @@
             "location": "Melbourne, AU",
             "url": "https://www.slalombuild.com",
             "startDate": "2021-10-25",
-            "highlights": [],
+            "highlights": [
+                "Provided Machine Learning thought leadership and vision, both internally and to clients.",
+                "Recommended and implemented architecture to deploy machine learning pipelines and CI/CD processes at scale.",
+                "Staffed, lead, and mentored data scientists, machine learning practitioners and engineers.",
+                "Collaborated with Product Owners to apply Slalom’s agile processes and while being responsible for the initiation, delivery, and transition of projects"
+            ],
             "summary": "Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next",
             "pinned": true
         },
@@ -141,6 +146,30 @@
         }
     ],
     "projects": [
+        {
+            "name": "ERA Application",
+            "entity": "RMIT",
+            "description": "Designed and built a full stack (Spring + Postgres + React) application to allow field of research advisors to align to the ERA process, this was a fully featured application, which included; custom workflow management, triggering and recieving notifications for users and strict Role Based Access Controls. (RBAC)",
+            "startDate": "2021-11-21",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "Software Engineering",
+                "Full Stack",
+                "Java",
+                "Spring Boot",
+                "React",
+                "Postgres",
+                "DMS",
+                "AWS",
+                "JIRA"
+            ],
+            "highlights": [
+                "Lead the technical delivery of the application, advising on software architecture, feature delivery and testing stratergy",
+                "Collaboratively worked on features/bugs in both the backend and the frontend of the application",
+                "Stretched laterally across into Software Engineering to support the delivery on an upcoming deadline"
+            ],
+            "pinned": true
+        },
         {
             "name": "Data Backbone",
             "entity": "Services Australia",
