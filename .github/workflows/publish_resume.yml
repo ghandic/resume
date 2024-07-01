@@ -36,7 +36,7 @@ jobs:
 
       - name: Build the resume - pdf
         run: |
-          script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format pdf Andrew_Challis_Resume.pdf" /dev/null
+          script --return -c "./node_modules/.bin/resumed export --theme stackoverflow --format pdf Andrew_Challis_Resume.pdf" /dev/null
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Andrew_Challis_Resume.pdf
