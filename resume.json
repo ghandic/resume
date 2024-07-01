@@ -6,7 +6,6 @@
         "image": "https://warehouse-camo.ingress.cmh1.psfhosted.org/35b73eaa1ba83efc77487c138013ea19597061c7/68747470733a2f2f7365637572652e67726176617461722e636f6d2f6176617461722f35383131353438313965306336353462646562396235633433376233323661373f73697a653d323235",
         "email": "andrewchallis@hotmail.co.uk",
         "phone": "61482043277",
-        
         "website": "andrewchallis.co.uk",
         "summary": "Andy is a solution catalyst, he builds and mentors high-performance teams from the ground up. He has worked in several industries, from Public Sector accounts across multiple countries to Utilities and Financial Services. Andy specializes in leading and enabling teams to deliver quantifiable business value for clients using state-of-the-art machine learning and industry best practices.",
         "location": {
@@ -45,17 +44,17 @@
         {
             "name": "Full Stack",
             "level": "Master",
-            "keywords": ["NodeJS", "React", "KonvaJS", "CSS", "SASS", "HTML5", "Hugo", "Traefik"]
+            "keywords": ["Golang", "NodeJS", "React", "Tanstack", "KonvaJS", "CSS", "SASS", "HTML5", "Hugo", "Traefik"]
         },
         {
             "name": "DevOps",
             "level": "Master",
-            "keywords": ["AWS", "GCP", "Docker🐳", "Kubernettes", "Git", "Github", "GitLab", "Bitbucket"]
+            "keywords": ["AWS", "GCP", "Terraform", "Docker🐳", "Kubernettes", "Git", "Github", "GitLab", "Bitbucket"]
         },
         {
             "name": "Databases",
             "level": "Master",
-            "keywords": ["PostgreSQL", "MySql", "Elastic", "Hive", "sqlite"]
+            "keywords": ["PostgreSQL", "DynamoDB", "MySql", "Elastic", "Hive", "sqlite"]
         }
     ],
     "work": [
@@ -67,6 +66,7 @@
             "url": "https://www.slalombuild.com",
             "startDate": "2021-10-25",
             "highlights": [
+                "Worked with a wide range of clients to understand their business needs and provide technical solutions to meet those needs",
                 "Provided Machine Learning thought leadership and vision, both internally and to clients.",
                 "Recommended and implemented architecture to deploy machine learning pipelines and CI/CD processes at scale.",
                 "Staffed, lead, and mentored data scientists, machine learning practitioners and engineers.",
@@ -148,10 +148,128 @@
     ],
     "projects": [
         {
+            "name": "Marketplace",
+            "entity": "SafetyCulture",
+            "description": "Designed and architected multiple gRPC microservices for a 'Content Marketplace' for SafetyCulture customers to publish/sell and buy/import templates, courses and documents. Making use of SaaS integrations such as Commercetools, Algolia and Stripe for the eCommerce capabilities.",
+            "startDate": "2024-03-18",
+            "endDate": "2024-05-10", 
+            "location": "Melbourne, AU",
+            "keywords": [
+                "Software Engineering",
+                "Full Stack",
+                "Golang",
+                "gRPC",
+                "React",
+                "Commercetools",
+                "Algolia",
+                "Stripe",
+                "Postgres",
+                "Kafka",
+                "S3",
+                "AWS",
+                "Terraform",
+                "JIRA"
+            ],
+            "highlights": [
+                "Lead the technical architecture of the microservices, advising on software architecture, feature delivery and testing strategy",
+                "Created multiple PoC's to test the feasibility of the project, including a 'proof of concept' for the integration of Kafka, Commercetools and Algolia",
+                "Created a backlog of work for the team to deliver on with a roadmap and t-shirt sized estimates for the work to be done"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Drive",
+            "entity": "SafetyCulture",
+            "description": "Designed and built a gRPC microservice (Golang + Kafka + S3 + Postgres) to implement a 'Google Drive' like experience for SafetyCulture customers to store and share their documents and folders. We then extended their existing React frontend to interact with the service.",
+            "startDate": "2023-04-11",
+            "endDate": "2023-12-23",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "Software Engineering",
+                "Full Stack",
+                "Golang",
+                "gRPC",
+                "React",
+                "Postgres",
+                "Kafka",
+                "S3",
+                "AWS",
+                "Terraform",
+                "JIRA"
+            ],
+            "highlights": [
+                "Lead the technical delivery of the microservice, advising on software architecture, feature delivery and testing strategy",
+                "Designed custom data model from scratch to emulate Google Drive including nested folders, sharing permissions and file versioning",
+                "Collaboratively worked with SafetyCulture to release the feature to end users and gather feedback for future iterations"           
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Merchants System",
+            "entity": "Prezzee",
+            "description": "Designed and built a fullstack microservice with a plugin system to allow for the easy integration of new merchants into the Prezzee platform and non developers to configure the Merchant settings",
+            "startDate": "2022-08-29",
+            "endDate": "2022-12-23",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "Software Engineering",
+                "Full Stack",
+                "Python",
+                "FastAPI",
+                "Django",
+                "React",
+                "DynamoDB",
+                "OpenTelemetry",
+                "Datadog",
+                "S3",
+                "SecretsManager",
+                "Fargate",
+                "AWS",
+                "Terraform",
+                "JIRA"
+            ],
+            "highlights": [
+                "Created a sophisticated plugin system that allowed developers to inherit from a base class which would make use of the type hints to automatically create the frontend form input for configuration",
+                "Pioneered the use of distributed tracing within the Prezzee teams, allowing for the existing rich monitoring dashboards to continue to be supported in the microservice world",
+                "Deployed using containerization on AWS Fargate with auto scaling, running on minimal hardware which shrunk the AWS costs considerably down to 100's per month for a globally distributed service",
+                "Supported the next phase of work for managing Inventory and integrating with the new Merchants microservice"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Notifications System",
+            "entity": "Prezzee",
+            "description": "Designed and built a serverless notifications microservice to replace part of the existing monolith system and allow it to scale at peak traffic events. The system was built using event driven architecture and a choreography pattern to ensure that the system could scale horizontally.",
+            "startDate": "2022-05-09",
+            "endDate": "2022-08-29",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "Software Engineering",
+                "Full Stack",
+                "Python",
+                "Django",
+                "DynamoDB",
+                "OpenTelemetry",
+                "Datadog",
+                "Stripo",
+                "S3",
+                "Lambda",
+                "AWS",
+                "Terraform",
+                "JIRA"
+            ],
+            "highlights": [
+                "Migrated existing HTML Jinja templates to chosen SaaS provider called Stripo which allowed for a non developer to modify the templates in a drag-and-drop manner",
+                "Migrated Datadog dashboards to the new microservice to ensure that the team could monitor the new system in the same way as the old system"
+            ],
+            "pinned": true
+        },
+        {
             "name": "ERA Application",
             "entity": "RMIT",
-            "description": "Designed and built a full stack (Spring + Postgres + React) application to allow field of research advisors to align to the ERA process, this was a fully featured application, which included; custom workflow management, triggering and recieving notifications for users and strict Role Based Access Controls. (RBAC)",
+            "description": "Designed and built a full stack (Spring + Postgres + React) application to allow field of research advisors to align to the ERA process, this was a fully featured application, which included; custom workflow management, triggering and receiving notifications for users and strict Role Based Access Controls. (RBAC)",
             "startDate": "2021-11-21",
+            "endDate": "2021-12-17",
             "location": "Melbourne, AU",
             "keywords": [
                 "Software Engineering",
@@ -165,7 +283,7 @@
                 "JIRA"
             ],
             "highlights": [
-                "Lead the technical delivery of the application, advising on software architecture, feature delivery and testing stratergy",
+                "Lead the technical delivery of the application, advising on software architecture, feature delivery and testing strategy",
                 "Collaboratively worked on features/bugs in both the backend and the frontend of the application",
                 "Stretched laterally across into Software Engineering to support the delivery on an upcoming deadline"
             ],
@@ -176,6 +294,7 @@
             "entity": "Services Australia",
             "description": "In this part time project (40% capacity role) we designed and built a full stack (FaRM) application to monitor and democratize the data replication jobs across SvA",
             "startDate": "2021-07-21",
+            "endDate": "2021-10-22",
             "location": "Adelaide, AU",
             "keywords": [
                 "Data Engineering",
@@ -197,6 +316,7 @@
             "entity": "ANZ",
             "description": "In this part time project (25% capacity role) we designed and built integrations from ServiceNow to Qlik Sense for the purpose of automating processes and exposing where SLA's were not being adhered to across the bank",
             "startDate": "2021-06-01",
+            "endDate": "2021-10-22",
             "location": "Melbourne, AU",
             "keywords": ["Data Engineering", "Project Management", "Proposal", "Agile", "JIRA"],
             "highlights": [
@@ -293,8 +413,8 @@
             "highlights": [
                 "Architected and built a self service micro-service for registering data sources to a data platform specifically for files being sent via SFTP.",
                 "Built a horizontally scalable (EC2/Docker) Python daemon that monitored file-system events (EFS) and triggered custom data flows for each object, such as; moving to specified dynamic S3 paths (S3), triggering a custom transformation job (Jenkins), automated un-compressing, clearing from file system (EFS)",
-                "Advised team members on deployment strategies (Terraform), unit testing (PyTest), alerting/logging (SNS + Splunk), documentation standards and containerisation",
-                "Lead an automation squad consisting of 8 people within NAB to help deliver a centralised self service data platform.",
+                "Advised team members on deployment strategies (Terraform), unit testing (PyTest), alerting/logging (SNS + Splunk), documentation standards and containerization",
+                "Lead an automation squad consisting of 8 people within NAB to help deliver a centralized self service data platform.",
                 "Had a major impact on software practices within squads by; creating reusable distributed packages for other teams to take advantage of, building tactical tools to increase the work-flow and automation of manual data ingestion – effectively cutting ingestion time from 6 weeks down to 2 (allowing for business approvals and procedures).",
                 "Built user interfaces (Flask, Javascript, HTML, CSS) for other squads to use that speed up their validation efforts for data ingestion."
             ],
@@ -356,7 +476,7 @@
         },
         {
             "name": "Automated Leakage Detection",
-            "description": "Designed interactive mapping visualisations using both open source technologies for PoC and full-scale integration's with IBM's IOC for PoV which links the users' decisions to the operations.",
+            "description": "Designed interactive mapping visualizations using both open source technologies for PoC and full-scale integration's with IBM's IOC for PoV which links the users' decisions to the operations.",
             "startDate": "2017-02-01",
             "endDate": "2017-04-01",
             "entity": "Thames Water",
