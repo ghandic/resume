@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "html": "mkdir -p public && resumed --theme jsonresume-theme-stackoverflow -o public/index.html",
+        "pdf": "node index.js"
+    },
+    "dependencies": {
+        "resumed": "^3.0.1",
+        "puppeteer": "^13.0.0",
+        "jsonresume-theme-stackoverflow": "git://github.com/ghandic/jsonresume-theme-stackoverflow.git"
+    }
+}

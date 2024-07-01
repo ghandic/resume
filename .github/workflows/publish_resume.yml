@@ -8,25 +8,21 @@ jobs:
   publish_resume:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "11"
-
+          node-version: "22"
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
       - name: Install the dependencies
         run: |
           apt-get update && apt-get install -y git
-          npm install resumed-cli
-          git clone https://github.com/ghandic/jsonresume-theme-stackoverflow.git
-          cd jsonresume-theme-stackoverflow
-          npm install .
-          cd ..
-          mkdir public
+          pnpm i
 
       - name: Build the resume - html
         run: |
-          echo "$(tty)"
-          script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format html public/index.html" /dev/null
+          pnpm run html
 
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
@@ -36,8 +32,7 @@ jobs:
 
       - name: Build the resume - pdf
         run: |
-          script --return -c "./node_modules/.bin/resumed export --theme stackoverflow --format pdf Andrew_Challis_Resume.pdf"
-          cat typescript
+          pnpm run pdf
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Andrew_Challis_Resume.pdf
