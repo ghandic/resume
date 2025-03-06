@@ -7,7 +7,7 @@
     },
     "dependencies": {
         "resumed": "^3.0.1",
-        "puppeteer": "^13.0.0",
+        "puppeteer": "^24.4.0",
         "jsonresume-theme-stackoverflow": "git://github.com/ghandic/jsonresume-theme-stackoverflow.git"
     }
 }
