@@ -2,12 +2,12 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Andy Challis",
-        "label": "Principal Data Scientist",
+        "label": "Principal Engineer",
         "image": "https://media.licdn.com/dms/image/C5103AQHKiGYWISNUIA/profile-displayphoto-shrink_200_200/0/1583054113378?e=2147483647&v=beta&t=p2O1uD_jUJmAifjOsZ8wYBLB4ndDlB8wg-5xQxHc6nA",
         "email": "andrewchallis@hotmail.co.uk",
         "phone": "61482043277",
         "website": "andrewchallis.co.uk",
-        "summary": "Andy is a solution catalyst, he builds and mentors high-performance teams from the ground up. He has worked in several industries, from Public Sector accounts across multiple countries to Utilities and Financial Services. Andy specializes in leading and enabling teams to deliver quantifiable business value for clients using state-of-the-art machine learning and industry best practices.",
+        "summary": "Andy is a Principal Engineer with expertise in architecting and deploying fullstack AI systems at scale. With a background in data science, fullstack development, and cloud infrastructure, he specializes in building and leading high-performance engineering teams. His experience spans building AI-driven applications, microservices, optimizing ML models for production, and scaling architectures for business impact.",
         "location": {
             "city": "Melbourne",
             "countryCode": "AU"
@@ -38,23 +38,23 @@
                 "Pandas",
                 "Flask",
                 "Dash",
-                "mkdocs"
+                "langchain"
             ]
         },
         {
             "name": "Full Stack",
             "level": "Master",
-            "keywords": ["Golang", "NodeJS", "React", "Tanstack", "KonvaJS", "CSS", "SASS", "HTML5", "Hugo", "Traefik"]
+            "keywords": ["Golang", "NodeJS", "React", "Tanstack", "KonvaJS", "CSS", "HTML5", "NextJS"]
         },
         {
             "name": "DevOps",
             "level": "Master",
-            "keywords": ["AWS", "GCP", "Terraform", "Docker🐳", "Kubernettes", "Git", "Github", "GitLab", "Bitbucket"]
+            "keywords": ["AWS", "GCP", "Pulumi", "Terraform", "Docker🐳", "Kubernettes", "Git", "Github", "GitLab", "Bitbucket"]
         },
         {
             "name": "Databases",
             "level": "Master",
-            "keywords": ["PostgreSQL", "DynamoDB", "MySql", "Elastic", "Hive", "sqlite"]
+            "keywords": ["PostgreSQL", "DynamoDB", "MySql", "Elastic", "Hive", "sqlite", "Neo4j"]
         }
     ],
     "work": [
@@ -66,13 +66,13 @@
             "url": "https://www.slalombuild.com",
             "startDate": "2021-10-25",
             "highlights": [
-                "Worked with a wide range of clients to understand their business needs and provide technical solutions to meet those needs",
-                "Provided Machine Learning thought leadership and vision, both internally and to clients.",
-                "Recommended and implemented architecture to deploy machine learning pipelines and CI/CD processes at scale.",
-                "Staffed, lead, and mentored data scientists, machine learning practitioners and engineers.",
-                "Collaborated with Product Owners to apply Slalom’s agile processes and while being responsible for the initiation, delivery, and transition of projects"
+                "Led enterprise AI projects, including a GraphRAG-based solution for RMIT that combined LLMs, knowledge graphs, and vector databases to enable accurate natural language querying.",
+                "Architected and deployed scalable AI solutions with robust full stack development, leveraging technologies like Next.js, LangChain, and AWS ECS for real-time data processing.",
+                "Developed a custom AST parsing tool and dependency mapping framework to estimate migration efforts for 50+ applications moving from on-premise systems to an AWS Redshift-based data platform.",
+                "Provided thought leadership in both machine learning and full stack engineering, mentoring multidisciplinary teams of data scientists and software engineers.",
+                "Collaborated with Product Owners to integrate agile methodologies with cutting-edge AI innovations and full stack architectures, driving successful business transformations."
             ],
-            "summary": "Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next",
+            "summary": "At Slalom Build, I drive the convergence of AI engineering and full stack development. My role encompasses architecting scalable AI systems that integrate advanced ML models with end-to-end software solutions, ensuring transformative business impact through innovative technology and agile practices.",
             "pinned": true
         },
         {
@@ -148,6 +148,78 @@
     ],
     "projects": [
         {
+            "name": "Network Data Platform",
+            "entity": "United Energy | Victoria Power Network",
+            "description": "Led the estimation of 50+ use cases and applications for migration from on-premise Postgres/Oracle to the newly built Network Data Platform (NDP) on AWS Redshift. Developed a custom effort calculator leveraging AST parsing to extract key migration metrics and generate relative effort estimates.",
+            "startDate": "2024-02-03", 
+            "location": "Melbourne, AU",
+            "keywords": [
+                "AWS Redshift",
+                "PostgreSQL",
+                "Oracle",
+                "dbt",
+                "Airflow",
+                "Python",
+                "R",
+                "Node.js",
+                "Rundeck",
+                "SQL Migration",
+                "AST Parsing"
+            ],
+            "highlights": [
+                "Assessed and estimated migration effort for 50+ applications moving from on-premise Postgres/Oracle to AWS Redshift.",
+                "Developed a custom AST parsing tool to extract key SQL migration metrics and automate effort estimation.",
+                "Mapped dependencies across Python/R/Node.js applications, identifying blockers and migration risks.",
+                "Designed a strategy to transition Rundeck jobs to Airflow and refactor raw SQL scripts into dbt workflows.",
+                "Provided actionable insights to optimize SQL translation for Redshift compliance while ensuring performance."
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Parental Leave",
+            "entity": "the World",
+            "description": "Spent 18 weeks enjoying every minute with my son while travelling around the world.",
+            "startDate": "2024-09-24",
+            "endDate": "2024-02-03", 
+            "location": "Melbourne, AU",
+            "keywords": [
+                "How to be a dad"
+            ],
+            "highlights": [],
+            "pinned": true
+        },
+        {
+            "name": "Rover | GraphRAG AI Accelerator",
+            "entity": "RMIT",
+            "description": "Architected and developed a fullstack AI system leveraging GraphRAG, LangGraph agents, and multi-LLM tokenization for financial tracking. The system integrates knowledge graphs (Neo4j), vector databases (pg_vector), and natural language Cypher query generation to enhance factual lookups and structured data retrieval.",
+            "startDate": "2024-07-01",
+            "endDate": "2024-09-24", 
+            "location": "Melbourne, AU",
+            "keywords": [
+                "GraphRAG",
+                "LLM",
+                "GenAI",
+                "LangChain",
+                "LangGraph",
+                "Neo4j",
+                "RAG",
+                "Postgres",
+                "pg_vector",
+                "Pulumi",
+                "Next.js",
+                "AWS",
+                "Full Stack"
+            ],
+            "highlights": [
+                "Developed a GraphRAG-based AI system combining knowledge graphs (Neo4j) and vector databases (pg_vector) to enhance factual accuracy.",
+                "Implemented multi-LLM token-based cost optimization, dynamically routing requests to different models based on budget and complexity.",
+                "Built custom LangGraph agents capable of generating and executing Cypher queries for structured knowledge retrieval.",
+                "Deployed a scalable fullstack AI architecture using SST (Pulumi), Next.js, AWS ECS, RDS, and ECR.",
+                "Accelerated GenAI adoption at Slalom, with the solution reused in multiple enterprise AI projects."
+            ],
+            "pinned": true
+        },
+        {
             "name": "Marketplace",
             "entity": "SafetyCulture",
             "description": "Designed and architected multiple gRPC microservices for a 'Content Marketplace' for SafetyCulture customers to publish/sell and buy/import templates, courses and documents. Making use of SaaS integrations such as Commercetools, Algolia and Stripe for the eCommerce capabilities.",
@@ -180,7 +252,7 @@
         {
             "name": "Drive",
             "entity": "SafetyCulture",
-            "description": "Designed and built a gRPC microservice (Golang + Kafka + S3 + Postgres) to implement a 'Google Drive' like experience for SafetyCulture customers to store and share their documents and folders. We then extended their existing React frontend to interact with the service.",
+            "description": "Architected and deployed a high-performance document management microservice (Golang + gRPC + Kafka + S3 + Postgres) that enabled a 'Google Drive' like experience for SafetyCulture customers to store, manage and share their documents and folders.",
             "startDate": "2023-04-11",
             "endDate": "2023-12-23",
             "location": "Melbourne, AU",
