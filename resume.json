@@ -151,7 +151,7 @@
             "name": "Network Data Platform",
             "entity": "United Energy | Victoria Power Network",
             "description": "Led the estimation of 50+ use cases and applications for migration from on-premise Postgres/Oracle to the newly built Network Data Platform (NDP) on AWS Redshift. Developed a custom effort calculator leveraging AST parsing to extract key migration metrics and generate relative effort estimates.",
-            "startDate": "2024-02-03", 
+            "startDate": "2025-02-03", 
             "location": "Melbourne, AU",
             "keywords": [
                 "AWS Redshift",
@@ -180,7 +180,7 @@
             "entity": "the World",
             "description": "Spent 18 weeks enjoying every minute with my son while travelling around the world.",
             "startDate": "2024-09-24",
-            "endDate": "2024-02-03", 
+            "endDate": "2025-02-03", 
             "location": "Melbourne, AU",
             "keywords": [
                 "How to be a dad"
