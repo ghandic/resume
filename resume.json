@@ -2,12 +2,12 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Andy Challis",
-        "label": "Principal Engineer",
+        "label": "Senior Principal Engineer",
         "image": "https://media.licdn.com/dms/image/C5103AQHKiGYWISNUIA/profile-displayphoto-shrink_200_200/0/1583054113378?e=2147483647&v=beta&t=p2O1uD_jUJmAifjOsZ8wYBLB4ndDlB8wg-5xQxHc6nA",
         "email": "andrewchallis@hotmail.co.uk",
         "phone": "61482043277",
         "website": "andrewchallis.co.uk",
-        "summary": "Andy is a Principal Engineer with expertise in architecting and deploying fullstack AI systems at scale. With a background in data science, fullstack development, and cloud infrastructure, he specializes in building and leading high-performance engineering teams. His experience spans building AI-driven applications, microservices, optimizing ML models for production, and scaling architectures for business impact.",
+        "summary": "Andy is a Senior Principal Engineer with expertise in architecting and deploying fullstack AI systems and cross-platform mobile solutions at scale. With a background in data science, fullstack development, and cloud infrastructure, he specializes in building and leading high-performance engineering teams. His experience spans building AI-driven applications, re-architecting enterprise systems with TypeScript, delivering offline-first mobile apps, and managing teams to drive successful business transformations.",
         "location": {
             "city": "Melbourne",
             "countryCode": "AU"
@@ -44,7 +44,7 @@
         {
             "name": "Full Stack",
             "level": "Master",
-            "keywords": ["Golang", "NodeJS", "React", "Tanstack", "KonvaJS", "CSS", "HTML5", "NextJS"]
+            "keywords": ["TypeScript", "Golang", "NodeJS", "React", "React Native", "Tanstack", "KonvaJS", "CSS", "HTML5", "NextJS"]
         },
         {
             "name": "DevOps",
@@ -61,10 +61,28 @@
         {
             "company": "Slalom Build",
             "name": "Slalom Build",
+            "position": "Senior Principal Engineer",
+            "location": "Melbourne, AU",
+            "url": "https://www.slalombuild.com",
+            "startDate": "2025-05-01",
+            "highlights": [
+                "Led complex full-stack iOS, web, and Android projects for startups and scale-ups, delivering end-to-end mobile and web solutions.",
+                "Re-architected enterprise systems from Java to full TypeScript stack, achieving code reusability across iOS, Android, and web platforms while consolidating developer requirements.",
+                "Managed a team of 6 direct reports, providing technical leadership and mentorship across multiple concurrent projects.",
+                "Successfully delivered an offline-first mobile application with robust synchronization capabilities, ensuring seamless user experience in low-connectivity environments.",
+                "Drove technical strategy and architecture decisions for multiple client engagements, focusing on modern TypeScript-based solutions and cross-platform development."
+            ],
+            "summary": "As Senior Principal Engineer at Slalom Build, I lead complex full-stack mobile and web projects, driving architectural transformations and managing high-performing engineering teams to deliver innovative solutions for startups and scale-ups.",
+            "pinned": true
+        },
+        {
+            "company": "Slalom Build",
+            "name": "Slalom Build",
             "position": "Principal Engineer",
             "location": "Melbourne, AU",
             "url": "https://www.slalombuild.com",
             "startDate": "2021-10-25",
+            "endDate": "2025-05-01",
             "highlights": [
                 "Led enterprise AI projects, including a GraphRAG-based solution for RMIT that combined LLMs, knowledge graphs, and vector databases to enable accurate natural language querying.",
                 "Architected and deployed scalable AI solutions with robust full stack development, leveraging technologies like Next.js, LangChain, and AWS ECS for real-time data processing.",
@@ -148,10 +166,45 @@
     ],
     "projects": [
         {
+            "name": "Atlas Grazing",
+            "entity": "Atlas Carbon",
+            "description": "Architected and delivered a full-stack offline-capable mobile and web application for graze management in the agricultural sector. Built a modern TypeScript-based system with tRPC backend, Expo/React Native mobile/web app with SQLite for offline functionality, and Next.js web admin interface, all deployed on Kubernetes infrastructure.",
+            "startDate": "2025-05-01",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "React Native",
+                "Expo",
+                "tRPC",
+                "Hono",
+                "TypeScript",
+                "Kubernetes",
+                "PostgreSQL",
+                "SQLite",
+                "S3",
+                "AWS",
+                "Datadog",
+                "Next.js",
+                "Full Stack",
+                "Chargebee",
+                "Terraform",
+                "Offline-First"
+            ],
+            "highlights": [
+                "Architected and delivered an offline-first mobile application using React Native and Expo with SQLite for local data persistence and robust synchronization.",
+                "Designed and developed the sync layer on both the mobile app and backend using a command queue pattern to ensure reliable data synchronization between offline and online states.",
+                "Built a type-safe full-stack system using tRPC for end-to-end TypeScript across mobile, web, and backend services.",
+                "Deployed scalable infrastructure on Kubernetes with PostgreSQL, S3, and comprehensive monitoring via Datadog.",
+                "Integrated Chargebee for subscription management and billing automation.",
+                "Delivered both mobile (iOS/Android) and web (Next.js) experiences from a unified TypeScript codebase."
+            ],
+            "pinned": true
+        },
+        {
             "name": "Network Data Platform",
             "entity": "United Energy | Victoria Power Network",
             "description": "Led the estimation of 50+ use cases and applications for migration from on-premise Postgres/Oracle to the newly built Network Data Platform (NDP) on AWS Redshift. Developed a custom effort calculator leveraging AST parsing to extract key migration metrics and generate relative effort estimates.",
             "startDate": "2025-02-03", 
+            "endDate": "2025-05-01", 
             "location": "Melbourne, AU",
             "keywords": [
                 "AWS Redshift",
